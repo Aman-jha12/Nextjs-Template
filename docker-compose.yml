@@ -12,7 +12,7 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
 
-redis:
+  redis:
     image: redis:7
     container_name: rl_redis
     restart: always
